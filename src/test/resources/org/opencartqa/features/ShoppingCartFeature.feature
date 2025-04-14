@@ -1,5 +1,6 @@
 Feature: Shopping Cart
 
+  @Regression
   Scenario: Shipping is added to order
     Given user is on home page
     When user adds item to shopping cart

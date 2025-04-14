@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/resources/org/opencartqa/features/"},
         glue = {"org/opencartqa/steps"},
+        tags = "@Regression",
         plugin = {"pretty", "html:target/cucumber-reports"},
         monochrome = true
 )
